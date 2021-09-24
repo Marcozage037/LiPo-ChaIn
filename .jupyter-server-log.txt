@@ -1,0 +1,135 @@
+[I 09:48:03.073 NotebookApp] Writing notebook server cookie secret to /home/jovyan/.local/share/jupyter/runtime/notebook_cookie_secret
+[W 2021-09-24 09:48:04.040 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-09-24 09:48:04.040 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-09-24 09:48:04.040 LabApp] 'base_url' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-09-24 09:48:04.040 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-09-24 09:48:04.040 LabApp] 'trust_xheaders' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-09-24 09:48:04.040 LabApp] 'allow_origin' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-09-24 09:48:04.040 LabApp] 'allow_origin_pat' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-09-24 09:48:04.040 LabApp] 'extra_template_paths' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2021-09-24 09:48:04.040 LabApp] 'jinja_template_vars' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2021-09-24 09:48:04.040 LabApp] 'shutdown_no_activity_timeout' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-09-24 09:48:04.040 LabApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-09-24 09:48:04.040 LabApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2021-09-24 09:48:04.050 LabApp] JupyterLab extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/jupyterlab
+[I 2021-09-24 09:48:04.050 LabApp] JupyterLab application directory is /srv/conda/envs/notebook/share/jupyter/lab
+[I 09:48:04.058 NotebookApp] nteract extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/nteract_on_jupyter
+[I 09:48:04.118 NotebookApp] Will shut down after 600 seconds with no kernels or terminals.
+[I 09:48:04.119 NotebookApp] Serving notebooks from local directory: /home/jovyan
+[I 09:48:04.119 NotebookApp] Jupyter Notebook 6.2.0 is running at:
+[I 09:48:04.119 NotebookApp] http://jupyter-frakesmart-2dlipo-2dchain-2d7v82t9ob:8888/user/frakesmart-lipo-chain-7v82t9ob/?token=...
+[I 09:48:04.119 NotebookApp]  or http://127.0.0.1:8888/user/frakesmart-lipo-chain-7v82t9ob/?token=...
+[I 09:48:04.119 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 09:48:04.124 NotebookApp] No web browser found: could not locate runnable browser.
+[I 09:48:05.359 NotebookApp] 302 GET /user/frakesmart-lipo-chain-7v82t9ob/ (10.0.21.64) 1.110000ms
+[I 09:48:08.673 NotebookApp] 302 GET /user/frakesmart-lipo-chain-7v82t9ob/?token=VD4WhGlvSmGerIBfJn_DVw (112.211.120.92) 0.870000ms
+[I 09:48:09.262 NotebookApp] 301 GET /user/frakesmart-lipo-chain-7v82t9ob/lab/?token=VD4WhGlvSmGerIBfJn_DVw (112.211.120.92) 1.320000ms
+[I 09:48:10.700 NotebookApp] 301 GET /user/frakesmart-lipo-chain-7v82t9ob/static/favicons/favicon.ico (112.211.120.92) 0.750000ms
+[W 2021-09-24 09:48:16.448 LabApp] Build recommended
+[W 2021-09-24 09:48:16.448 LabApp] jupyter-widget-datetime needs to be included in build
+[I 2021-09-24 09:48:29.484 LabApp] Building jupyterlab assets (production, minimized)
+-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-[I 09:48:53.422 NotebookApp] New terminal with automatic name: 1
+\|/-\|/-\|/-\|TermSocket.open: 1
+not able to serialize: expected string or bytes-like object
+TermSocket.open: Opened 1
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/--\|/-\|/-\|-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|[I 10:09:54.030 NotebookApp] New terminal with automatic name: 2
+Websocket closed
+TermSocket.open: 2
+not able to serialize: expected string or bytes-like object
+TermSocket.open: Opened 2
+Websocket closed
+TermSocket.open: 2
+not able to serialize: expected string or bytes-like object
+TermSocket.open: Opened 2
+Websocket closed
+[I 10:09:56.126 NotebookApp] 301 GET /user/frakesmart-lipo-chain-7v82t9ob/static/favicons/favicon.ico (112.211.120.92) 1.930000ms
+[I 2021-09-24 10:10:05.340 LabApp] Build is up to date
+[E 10:10:07.107 NotebookApp] Uncaught exception GET /user/frakesmart-lipo-chain-7v82t9ob/api/nbconvert?1632478205555 (112.211.120.92)
+    HTTPServerRequest(protocol='https', host='hub.gke2.mybinder.org', method='GET', uri='/user/frakesmart-lipo-chain-7v82t9ob/api/nbconvert?1632478205555', version='HTTP/1.1', remote_ip='112.211.120.92')
+    Traceback (most recent call last):
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/tornado/web.py", line 1702, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/tornado/web.py", line 3173, in wrapper
+        return method(self, *args, **kwargs)
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/notebook/services/nbconvert/handlers.py", line 18, in get
+        exporters = base.get_export_names()
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/nbconvert/exporters/base.py", line 141, in get_export_names
+        return exporters
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/nbconvert/exporters/base.py", line 102, in get_exporter
+        exporter = entrypoints.get_single('nbconvert.exporters', name).load()
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/nbinteract/exporters.py", line 125, in __init__
+        self.template_path.insert(
+    AttributeError: 'InteractExporter' object has no attribute 'template_path'
+[W 10:10:07.113 NotebookApp] Unhandled error
+[E 10:10:07.114 NotebookApp] {
+      "Cookie": "username-hub-gke2-mybinder-org=\"2|1:0|10:1632478204|30:username-hub-gke2-mybinder-org|44:NDY1NGRmZGQ1MTJjNGJmZTk5Nzk1MmZkMDc3M2I0OWU=|07ab02e1b6b3fdefbe72c9f00e175fb7078a5eac3a7a567038ce4f415c647399\"; _xsrf=2|e3bf46c4|95d1a47ff4cadfb406dc0d073e146ce6|1631841390",
+      "Cache-Control": "no-cache",
+      "Pragma": "no-cache",
+      "Sec-Fetch-Site": "same-origin",
+      "Sec-Fetch-Mode": "cors",
+      "Sec-Fetch-Dest": "empty",
+      "Content-Type": "application/json",
+      "X-Xsrftoken": "2|e3bf46c4|95d1a47ff4cadfb406dc0d073e146ce6|1631841390",
+      "Authorization": "token VD4WhGlvSmGerIBfJn_DVw",
+      "Referer": "https://hub.gke2.mybinder.org/user/frakesmart-lipo-chain-7v82t9ob/lab",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Accept-Language": "en-US,en;q=0.5",
+      "Accept": "*/*",
+      "User-Agent": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:92.0) Gecko/20100101 Firefox/92.0",
+      "X-Scheme": "https",
+      "X-Forwarded-Port": "443,80",
+      "X-Forwarded-Host": "hub.gke2.mybinder.org",
+      "X-Forwarded-Proto": "https,http",
+      "X-Forwarded-For": "112.211.120.92,::ffff:10.0.25.66",
+      "X-Real-Ip": "112.211.120.92",
+      "X-Request-Id": "c2ebb7c605a9db107512561bf08d34ba",
+      "Host": "hub.gke2.mybinder.org",
+      "Connection": "close"
+    }
+[E 10:10:07.114 NotebookApp] 500 GET /user/frakesmart-lipo-chain-7v82t9ob/api/nbconvert?1632478205555 (112.211.120.92) 1430.380000ms referer=https://hub.gke2.mybinder.org/user/frakesmart-lipo-chain-7v82t9ob/lab
+[E 10:10:07.361 NotebookApp] Uncaught exception GET /user/frakesmart-lipo-chain-7v82t9ob/api/nbconvert?1632478205558 (112.211.120.92)
+    HTTPServerRequest(protocol='https', host='hub.gke2.mybinder.org', method='GET', uri='/user/frakesmart-lipo-chain-7v82t9ob/api/nbconvert?1632478205558', version='HTTP/1.1', remote_ip='112.211.120.92')
+    Traceback (most recent call last):
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/tornado/web.py", line 1702, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/tornado/web.py", line 3173, in wrapper
+        return method(self, *args, **kwargs)
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/notebook/services/nbconvert/handlers.py", line 18, in get
+        exporters = base.get_export_names()
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/nbconvert/exporters/base.py", line 141, in get_export_names
+        return exporters
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/nbconvert/exporters/base.py", line 102, in get_exporter
+        exporter = entrypoints.get_single('nbconvert.exporters', name).load()
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/nbinteract/exporters.py", line 125, in __init__
+        self.template_path.insert(
+    AttributeError: 'InteractExporter' object has no attribute 'template_path'
+[W 10:10:07.404 NotebookApp] Unhandled error
+[E 10:10:07.405 NotebookApp] {
+      "Cookie": "username-hub-gke2-mybinder-org=\"2|1:0|10:1632478204|30:username-hub-gke2-mybinder-org|44:NDY1NGRmZGQ1MTJjNGJmZTk5Nzk1MmZkMDc3M2I0OWU=|07ab02e1b6b3fdefbe72c9f00e175fb7078a5eac3a7a567038ce4f415c647399\"; _xsrf=2|e3bf46c4|95d1a47ff4cadfb406dc0d073e146ce6|1631841390",
+      "Cache-Control": "no-cache",
+      "Pragma": "no-cache",
+      "Sec-Fetch-Site": "same-origin",
+      "Sec-Fetch-Mode": "cors",
+      "Sec-Fetch-Dest": "empty",
+      "Content-Type": "application/json",
+      "X-Xsrftoken": "2|e3bf46c4|95d1a47ff4cadfb406dc0d073e146ce6|1631841390",
+      "Authorization": "token VD4WhGlvSmGerIBfJn_DVw",
+      "Referer": "https://hub.gke2.mybinder.org/user/frakesmart-lipo-chain-7v82t9ob/lab",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Accept-Language": "en-US,en;q=0.5",
+      "Accept": "*/*",
+      "User-Agent": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:92.0) Gecko/20100101 Firefox/92.0",
+      "X-Scheme": "https",
+      "X-Forwarded-Port": "443,80",
+      "X-Forwarded-Host": "hub.gke2.mybinder.org",
+      "X-Forwarded-Proto": "https,http",
+      "X-Forwarded-For": "112.211.120.92,::ffff:10.0.25.66",
+      "X-Real-Ip": "112.211.120.92",
+      "X-Request-Id": "c8ffb8580d140ca48186a7ae9f0fdf0d",
+      "Host": "hub.gke2.mybinder.org",
+      "Connection": "close"
+    }
+[E 10:10:07.405 NotebookApp] 500 GET /user/frakesmart-lipo-chain-7v82t9ob/api/nbconvert?1632478205558 (112.211.120.92) 288.690000ms referer=https://hub.gke2.mybinder.org/user/frakesmart-lipo-chain-7v82t9ob/lab
+TermSocket.open: 2
+not able to serialize: expected string or bytes-like object
+TermSocket.open: Opened 2
